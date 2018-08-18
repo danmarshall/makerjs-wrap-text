@@ -1,5 +1,4 @@
 var makerjs = require('makerjs');
-var opentype = require('opentype.js');
 var computeLayout = require('opentype-layout');
 
 function wrapText(font, text, fontSize, width, align, lineHeight) {
