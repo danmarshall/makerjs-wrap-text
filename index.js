@@ -6,6 +6,7 @@ function wrapText(font, text, fontSize, width, align, lineHeight) {
     //sample from https://github.com/Jam3/opentype-layout
     var scale = 1 / font.unitsPerEm * fontSize;
     var layoutOptions = {
+        align,
         lineHeight: lineHeight * font.unitsPerEm,
         width: width / scale
     };
