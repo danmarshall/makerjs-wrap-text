@@ -26,7 +26,7 @@ wrapText.metaParameters = [
     { title: "font size", type: "range", min: 10, max: 200, value: 72 },
     { title: "width", type: "range", min: 100, max: 1000, value: 500 },
     { title: "align", type: "select", value: ["left", "right"] },
-    { title: "line height", type: "range", min: .25, max: 4, value: 1, step: 0.25 }
+    { title: "line height", type: "range", min: .25, max: 4, value: 1.175, step: 0.25 }
 ];
 
 module.exports = wrapText;
